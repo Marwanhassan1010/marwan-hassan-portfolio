@@ -1,0 +1,32 @@
+{
+  "name": "marwan-hassan-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@types/react": "https://registry.npmjs.org/@types/react/-/react-19.2.17.tgz",
+    "@types/react-dom": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.9.3",
+    "vite": "8.1.4"
+  },
+  "overrides": {
+    "ansi-styles": "6.2.1",
+    "brace-expansion@2.1.2": "2.0.2",
+    "minimatch@9.0.9": "9.0.5",
+    "yaml@2.9.0": "2.8.1",
+    "resolve@1.22.12": "1.22.10"
+  }
+}
